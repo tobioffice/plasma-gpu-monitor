@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Murali"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Beautiful GPU monitor for AMD, NVIDIA and Intel. Ring gauge, history graph, VRAM, temperature, clocks, power and fan.",
+        "EnabledByDefault": false,
+        "Icon": "freon-gpu",
+        "Id": "com.murali.gpumonitor",
+        "License": "GPL-2.0+",
+        "Name": "GPU Monitor",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

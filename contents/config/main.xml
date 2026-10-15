@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="gpuCard" type="String">
+      <label>GPU to monitor (auto, card0, card1…)</label>
+      <default>auto</default>
+    </entry>
+    <entry name="updateInterval" type="Int">
+      <label>Update interval (seconds)</label>
+      <default>2</default>
+      <min>1</min>
+      <max>10</max>
+    </entry>
+    <entry name="showCompactTemp" type="Bool">
+      <label>Show temperature in panel</label>
+      <default>true</default>
+    </entry>
+  </group>
+</kcfg>
